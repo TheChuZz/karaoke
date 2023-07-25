@@ -1,0 +1,143 @@
+body{  
+    background-image: url(../img/Galeria/1.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto 0;
+}
+.cabe{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid #FF2E63;
+}
+
+.cabe ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FFE2E2;
+    font-size: 38px;
+}
+.cabe img{
+    width: 400px;
+    float: left;margin-right: 50%;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+.cabe ul li{
+    float: left;
+    border-right:solid #FF2E63;
+    
+
+    
+}
+
+.cabe ul li:last-child{
+    border-right: none;
+
+   
+}
+
+.cabe ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cabe ul li a:hover:not(.active){
+    background-color: aqua;
+}
+
+.padre{
+    width: 100%;
+    height: 190vh;
+    
+}
+
+.artista1{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 800px;
+    height: 490px;
+    background-image: linear-gradient(to right, #f190b7ab, #b4ece3b7,#ffd36596); 
+    border: solid #FF2E63;
+    border-radius: 50px;
+    float: left;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    border: solid #08D9D6 5px;
+}
+
+.artista1 td img{
+    margin: 0;
+    width: 70px;
+    float: left;
+    filter: drop-shadow(2px 2px 1px rgb(0, 0, 0));
+    transition: all 300ms;
+}
+    
+.artista1 td img:hover{
+        transform: scale(1.40);
+}
+
+.artista1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.artista1 a:hover{
+    color: rgb(255, 0, 0);
+ }
+
+.artista1 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 2px 3px 1px;
+    color: #7C83FD;
+}
+
+.artista1 table {
+    margin-left: 5%;
+    width: 90%;
+    height: 90px;
+    text-align: left;
+    text-shadow: #b57cff 1px 1px 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 20px;
+    
+}
+
+.artista1 td{
+    font-size: 20px;
+    height: 20px;
+    padding: 10px;
+
+    
+}
+
+footer{
+    background-color:#FFE2E2;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom: 0;
+    bottom: 0;
+    text-align: right;
+    font-size: 20px;
+    border-top: solid #FF2E63;
+}
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>REGISTRO</title>
+</head>
+
+<body>
+    
+
+    <main>
+        <div class="formulario">
+            <h1>REGISTRO</h1>
+            <table>
+                <form action="index.html">
+                <tr>
+                    <td>NOMBRE</td>
+                    <td><input type="text" required placeholder="INGRESA TU NOMBRE"></td>
+                </tr>
+                <tr>
+                    <td>CORREO</td>
+                    <td><input type="email" required placeholder="INGRESA TU EMAIL"></td>
+                </tr>
+                <tr>
+                    <td>PAIS</td>
+                    <td><select name="pais" id="pais">
+                            <option value="mexico">Mexico</option>
+                            <option value="eu">Estados Unidos</option>
+                            <option value="canada">Canada</option>
+                            <option value="peru">Peru</option>
+                            <option value="aregentina">Argentina</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="venezuela">Venezuela</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="chile">Chile</option>
+                            <option value="bolivia">Bolivia</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>SEXO</td>
+                    <td><label>MASCULINO
+                            <input type="radio" name="gender">
+                        </label> <label>FEMENINO
+                            <input type="radio" name="gender">
+                        </label></td>
+                </tr>
+                <tr>
+                    <td class="gustos">GUSTOS MUSICALES</td>
+                    <td><label for="rap">Rap
+                            <input id="rap" type="checkbox">
+                        </label>
+                        <label for="K-Pop">K-Pop
+                            <input id="K-Pop" type="checkbox">
+                        </label>
+                        <label for="Rock">Rock
+                            <input id="Rock" type="checkbox">
+                        </label>
+                        <label for="Pop">Pop
+                            <input id="Pop" type="checkbox">
+                        </label>
+                        <label for="Música clásica">Música clásica
+                            <input id="Música clásica" type="checkbox">
+                        </label>
+                        <label for="Metal">Metal
+                            <input id="Metal" type="checkbox">
+                        </label>
+                        <label for="Salsa">Salsa
+                            <input id="Salsa" type="checkbox">
+                        </label>
+                        <label for="banda">banda
+                            <input id="banda" type="checkbox">
+                        </label>
+                    </td>
+                </tr>    
+            
+            </table>
+            <div class="botones">
+                <input class="botones" type="submit" value="enviar">
+                <input class="botones" type="button" value="regresar" onclick="history.back()">
+            </div>
+        </form>
+
+
+        </div>
+    </main>
+
+</body>
+
+</html>

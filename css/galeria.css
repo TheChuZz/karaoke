@@ -1,0 +1,130 @@
+body{  
+    background-image: url(../img/Galeria/2.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto 0;
+    background-color: rgba(0, 0, 0, 0.849);
+    background-blend-mode: soft-light;
+}
+.cabe{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: solid #FF2E63;
+}
+
+.cabe ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FFE2E2;
+    font-size: 38px;
+}
+.cabe img{
+    width: 400px;
+    float: left;margin-right: 50%;
+    padding: 5px;
+    margin-left: 5%;
+}
+
+.cabe ul li{
+    float: left;
+    border-right:solid #FF2E63;   
+}
+
+.cabe ul li:last-child{
+    border-right: none; 
+}
+
+.cabe ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cabe ul li a:hover:not(.active){
+    background-color: aqua;
+}
+
+
+
+.padre{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    width: 100%;
+    height: 1300px;
+
+
+}
+
+.contenedor1h{
+    background-image: url("../img/Galeria/1.jfif");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    width: 100%;
+    height: 100vh;  
+    
+}
+
+
+.contenedor2h{
+    background-image: url("../img/Galeria/2.jfif");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    width: 100%;
+    height: 100vh;  
+}
+
+
+.contenedor3h{
+    background-image: url("../img/Galeria/4.jpg");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    width: 100%;
+    height: 100vh; 
+}
+
+.contenedor4h{
+    background-image: url("../img/Galeria/5.jpg");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    width: 100%;
+    height: 100vh;  
+}
+
+
+.contenedor5h{
+    background-image: url("../img/Galeria/6.jpg");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    width: 100%;
+    height: 100vh;  
+}
+
+
+.contenedor6h{
+    background-image: url("../img/Galeria/7.jpg");
+    background-size: auto 50vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    width: 100%;
+    height: 100vh; 
+}
+
+

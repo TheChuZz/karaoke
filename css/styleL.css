@@ -1,0 +1,80 @@
+body{  
+   background-image: url(../img/3.jfif);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   margin: auto 0;
+}
+
+.box {
+   margin: auto;
+   width: 400px;
+   height: 520px;
+   padding: 4%;
+   margin-top: 5%;
+   border: solid #F24A72;
+   border-radius: 10px;
+   background-color:#1a132ff8;
+   color: white;
+   
+}
+
+.box .img{
+   width: 40%;
+   margin-left: 30%;
+   filter: drop-shadow(-1px 1px 1px rgb(255, 0, 0));
+   
+
+}
+
+.box h1{
+   padding-top: 10% ;
+   text-align: center;
+   font-size: x-large;
+}
+
+.box label{
+   margin: 0%;
+   padding: 0%;
+   font-weight: bold;
+   display: block;
+}
+
+.box input{
+   width: 100%;
+   margin-bottom: 1%;
+}
+
+.box input[type="text"],
+.box input[type="tel"],
+.box input[type="email"],
+.box input[type="password"]{
+   border: none;
+   border-bottom: 1% solid #fff;
+   background: transparent;
+   outline: none;
+   height: 40px;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+}
+
+.box input[type="submit"]{
+   border: none;
+   outline: none;
+   height: 40px;
+   background-color:cornflowerblue;
+   color: #fff;
+   font-size: 18px;
+   border-radius: 20px;
+}
+
+.box a{
+   margin-top: 1%;
+   text-decoration: none;
+   font-size: 13px;
+   line-height: 30px;
+   color: rgb(255, 255, 255);
+}
+
+.box a:hover{
+   color: aqua;
+}
